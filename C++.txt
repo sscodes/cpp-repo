@@ -1,0 +1,116 @@
+for strings -
+
+#include<string>
+string s;
+
+---------------------------------
+
+for finding min of 2 nos. -
+#include<arithmatic>
+
+--------------------------------
+
+std::min(a,b);
+
+---------------------------------------------------------
+
+#include<iomanip>
+setprecision(10) //to set precision upto a certain point.
+
+---------------------------------
+input n integers:
+do
+{
+     scanf("%d%c",&a[i],&ch);
+     i++;
+}
+while(ch!='\n');
+
+---------------------------------
+
+#include <cstdlib>
+
+for including abs(int-int)
+-----------------------------------------
+
+To check if a number is integer or not:
+
+#include<cmath>
+if(floor(a)==ceil(a))
+
+---------------------------------
+
+To sort:
+
+#include <bits/stdc++.h>
+sort(a, a+n);
+
+------------------------------------
+
+For gcd:
+
+#include<algorithm>
+gcd = __gcd(a, b);
+
+-------------------------------------
+
+For lcm:
+
+lcm = (a*b)/gcd;
+
+-------------------------------------------------------------------------
+
+to print the trailing zeros after decimal:
+
+cout<<fixed<<setprecision(upto what precision)<<(float variable)<<"\n";
+
+--------------------------------------
+
+ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
+	cout.tie(NULL);
+
+--------------------------------------
+
+#include <bits/stdc++.h>
+
+-------------------------------------
+
+typedef long long int lli;
+
+-------------------------------------
+
+int to string:
+
+#include<sstream>
+stringstream ss;  
+    ss<<a; 
+    string s;
+    ss>>s;
+
+-------------------------------------
+
+string to int:
+
+int myint1 = stoi(str1); 
+
+--------------------------------------
+
+template <typename T>
+T MAX ( T a , T b)
+{
+    return a>b ? a : b;
+}
+int main()
+{
+    auto x = MAX<char>('a', 'c');
+    cout<<x<<endl;
+}
+
+---------------------------------------
+
+for finding factors of a number
+
+loop till sqrt(n)
+
+---------------------------------------
