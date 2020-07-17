@@ -114,3 +114,13 @@ for finding factors of a number
 loop till sqrt(n)
 
 ---------------------------------------
+
+Vector of Vectors in C++ STL
+
+vector<vector<data_type>> vec;
+
+eg:-
+v2 = {1, 2, 3}
+v1.push_back(v2)
+
+---------------------------------------
