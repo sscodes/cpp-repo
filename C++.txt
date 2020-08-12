@@ -141,3 +141,13 @@ sort string characters:
 sort(str.begin(), str.end());
 
 ---------------------------------------
+
+substring/slicing in c++:
+
+s.substr(starting index, length of intended substring);
+
+and
+
+s.substr(starting index+1);
+
+---------------------------------------
