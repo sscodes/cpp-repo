@@ -1,7 +1,9 @@
 for strings -
 
 #include<string>
-string s;
+string s; 
+cin>>s; //for one word
+getline(cin, s); // for a sentence
 
 ---------------------------------
 
